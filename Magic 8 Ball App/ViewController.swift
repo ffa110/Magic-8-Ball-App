@@ -20,6 +20,11 @@ class ViewController: UIViewController {
     
     }
 
+    func updateImage() {
+        
+        randomImageIndex = Int(arc4random_uniform(5))
+        ballImageView.image = UIImage(named: ballArray[randomImageIndex])
+    }
     
     @IBAction func askButtonPressed(_ sender: UIButton) {
         
