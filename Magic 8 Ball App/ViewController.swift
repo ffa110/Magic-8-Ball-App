@@ -31,6 +31,10 @@ class ViewController: UIViewController {
         updateImage()
     }
     
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        updateImage()
+    }
+    
 
     
 }
