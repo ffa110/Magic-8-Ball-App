@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
+        updateImage()
     }
 
     func updateImage() {
@@ -27,7 +28,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func askButtonPressed(_ sender: UIButton) {
-        
+        updateImage()
     }
     
 
